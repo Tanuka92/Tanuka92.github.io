@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanuka Bhattacharjee | CV</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#academics">Academics</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#patents">Patents</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Tanuka Bhattacharjee</h1>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About</h2>
+            <img src="https://static.wixstatic.com/media/fb169e_4dea730a8ebd40a38aa18da679b31b17~mv2.jpg/v1/crop/x_0,y_7,w_390,h_389/fill/w_357,h_353,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/tanuka.jpg" alt="Tanuka Bhattacharjee" style="max-width:200px;border-radius:10px;">
+            <p>Hello! I'm Tanuka</p>
+            <p>I am a PhD scholar at <a href="https://spire.ee.iisc.ac.in/" target="_blank">SPIRE Lab</a> in the Department of Electrical Engineering, Indian Institute of Science, Bangalore. My research interests include speech processing, machine learning, deep learning and physiological signal processing.</p>
+            <p><a href="https://scholar.google.com/citations?user=6_JryR8AAAAJ&hl=en&oi=ao" target="_blank">Google Scholar Profile</a></p>
+            <ul>
+                <li><strong>Email:</strong> <a href="mailto:tanukab@iisc.ac.in">tanukab@iisc.ac.in</a></li>
+                <li><strong>Address:</strong> C-326, SPIRE Lab, Dept. of Electrical Engineering, IISc, Bangalore, Karnataka, Pin: 560012</li>
+            </ul>
+        </section>
+        <section id="academics">
+            <h2>Academics</h2>
+            <ul>
+                <li><strong>2019-Present:</strong> Doctor of Philosophy (Ph.D.), INDIAN INSTITUTE OF SCIENCE, BANGALORE, Dept. of Electrical Engineering, CGPA: 9.4/10</li>
+                <li><strong>2015-2017:</strong> Master of Engineering (M.E.), JADAVPUR UNIVERSITY, Dept. of Electronics & Telecommunication Engineering (Specialization in Computer Engineering), CGPA: 10/10</li>
+                <li><strong>2011-2015:</strong> Bachelor in Technology (B.Tech.), TECHNO INDIA, SALT LAKE, Maulana Abul Kalam Azad University of Technology, Dept. of Electronics & Communication Engineering, DGPA: 9.57/10</li>
+            </ul>
+        </section>
+        <section id="experience">
+            <h2>Experience</h2>
+            <ul>
+                <li><strong>2017-2019:</strong> Systems Engineer, TCS RESEARCH & INNOVATION (Embedded Systems and Robotics)</li>
+            </ul>
+        </section>
+        <section id="publications">
+            <h2>Publications</h2>
+            <h3>Journal</h3>
+            <ol>
+                <li>Tanuka Bhattacharjee et al., <a href="https://doi.org/10.1121/10.0034613" target="_blank">Inter-speaker acoustic differences of sustained vowels at varied dysarthria severities for ALS</a>, JASA Express Letters, 2024.</li>
+                <li>Arup Kumar Sadhu et al., <a href="https://www.sciencedirect.com/science/article/abs/pii/S2210650217306776" target="_blank">Synergism of Firefly Algorithm and Q-Learning for robot arm path planning</a>, Swarm and Evolutionary Computation, 2018.</li>
+                <!-- Add more journal publications as needed -->
+            </ol>
+            <h3>Conference</h3>
+            <ol>
+                <li>Upendra Vishwanath Y. S. et al., "Comparison of Acoustic and Textual Features for Dysarthria Severity Classification in ALS", Interspeech 2025.</li>
+                <li>Anjali Jayakumar et al., <a href="https://ieeexplore.ieee.org/abstract/document/10983135" target="_blank">Classification Between Patients with ALS and Healthy Individuals Using Hypernasality in Speech</a>, NCC 2025.</li>
+                <!-- Add more conference publications as needed -->
+            </ol>
+        </section>
+        <section id="patents">
+            <h2>Patents</h2>
+            <ol>
+                <li>Varsha Sharma et al., <a href="https://patents.google.com/patent/US11817217B2/en" target="_blank">Discriminating features based sepsis prediction</a>, U.S. Patent 11,817,217, 2023.</li>
+                <li>Tanuka Bhattacharjee et al., <a href="https://patents.google.com/patent/US11419542B2/en" target="_blank">System and method for non-apnea sleep arousal detection</a>, U.S. Patent 11,419,542, 2022.</li>
+                <li>Tanuka Bhattacharjee et al., <a href="https://patents.google.com/patent/US11045136B2/en" target="_blank">Heart Rate Driven Unsupervised Techniques for Continuous Monitoring of Arousal Trend of Users</a>, U.S. Patent 11,045,136, 2021.</li>
+                <li>Deepan Das et al., <a href="https://patents.google.com/patent/US10716501B2/en" target="_blank">System and Method for Classification and Quantitative Estimation of Cognitive Stress</a>, U.S. Patent 10,716,501, 2020.</li>
+                <!-- Add more patents as needed -->
+            </ol>
+        </section>
+        <section id="achievements">
+            <h2>Achievements</h2>
+            <ul>
+                <li>IEEE SPS Travel Grant to present at ICASSP 2023, Rhodes Island, Greece</li>
+                <li>ISCA Travel Grant to present at Interspeech 2021, Brno, Czech Republic</li>
+                <li>Prime Minister Research Fellowship for Doctoral studies</li>
+                <li>Qualcomm Innovation Fellowship India 2020 Finalist</li>
+                <li>Sarojini Radhakanta Majumdar Memorial Gold Centered Silver Medal, Jadavpur University</li>
+                <li>MHRD scholarship during M.E.</li>
+                <li>Gold Medal for B.Tech. in ECE, Maulana Abul Kalam Azad University of Technology</li>
+                <li>Best Outgoing Student Award 2014-15, Techno India, Salt Lake</li>
+                <!-- Add more achievements as needed -->
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="mailto:tanukab@iisc.ac.in" method="POST" enctype="text/plain">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+                <button type="submit">Submit</button>
+            </form>
+            <p>Or email directly: <a href="mailto:chatterjeesoumya5327@gmail.com">tanukab@iisc.ac.in</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Tanuka Bhattacharjee</p>
+    </footer>
+    <script src="scripts/main.js"></script>
+</body>
+</html>

@@ -3,61 +3,263 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome | Tanuka Bhattacharjee</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Arial, sans-serif;
-            background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
-            margin: 0;
-            padding: 0;
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .welcome-container {
-            background: #fff;
-            border-radius: 16px;
-            box-shadow: 0 8px 32px rgba(31, 38, 135, 0.15);
-            padding: 48px 32px;
-            max-width: 460px;
-            width: 90%;
-            text-align: center;
-        }
-        .welcome-container h1 {
-            color: #2d3e50;
-            margin-bottom: 16px;
-            font-size: 2.5em;
-        }
-        .welcome-container p {
-            color: #5a6a7a;
-            font-size: 1.2em;
-            margin-bottom: 24px;
-        }
-        .welcome-container a {
-            display: inline-block;
-            margin-top: 18px;
-            padding: 12px 28px;
-            background: #4285f4;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 8px;
-            font-weight: 600;
-            transition: background 0.2s;
-        }
-        .welcome-container a:hover {
-            background: #1a73e8;
-        }
-    </style>
+    <title>Tanuka Bhattacharjee | Research Scientist</title>
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-    <div class="welcome-container">
-        <h1>Welcome!</h1>
-        <p>
-            Hello and welcome to Tanuka Bhattacharjee's personal website.<br>
-            Click below to learn more about my academics, experience, publications and more.
-        </p>
-        <a href="https://tanuka1111.wixsite.com/mycv">Learn More</a>
-    </div>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+        <div class="brand">
+            <div class="brand-mark" aria-hidden="true">TB</div>
+            <div class="brand-copy">
+                <p class="brand-name">Tanuka Bhattacharjee</p>
+                <p class="brand-role">Research Scientist · PhD Scholar</p>
+            </div>
+        </div>
+        <button class="nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </button>
+        <nav class="site-nav" id="primary-navigation">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#focus">Expertise</a></li>
+                <li><a href="#qualifications">Qualifications</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#patents">Patents</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main-content">
+        <section class="hero" id="about">
+            <div class="hero-copy">
+                <p class="eyebrow">Speech · Machine Learning · Physiological Signals</p>
+                <h1>Advancing clinical speech intelligence for neurodegenerative care.</h1>
+                <p class="lead">
+                    I'm a research scientist at the <a href="https://spire.ee.iisc.ac.in/" target="_blank" rel="noopener">SPIRE Lab, IISc Bangalore</a>,
+                    building interpretable models that quantify dysarthria severity, detect speech biomarkers for ALS, and combine acoustic cues with physiological signals.
+                </p>
+                <ul class="contact-list">
+                    <li><strong>Email:</strong> <a href="mailto:tanukab@iisc.ac.in">tanukab@iisc.ac.in</a></li>
+                    <li><strong>Lab:</strong> C-326, SPIRE Lab, Dept. of Electrical Engineering, Indian Institute of Science, Bangalore 560012</li>
+                    <li><strong>Scholar:</strong> <a href="https://scholar.google.com/citations?user=6_JryR8AAAAJ" target="_blank" rel="noopener">Google Scholar</a></li>
+                </ul>
+                <div class="hero-actions">
+                    <a class="btn primary" href="mailto:tanukab@iisc.ac.in">Start a conversation</a>
+                    <a class="btn ghost" href="Tanuka_Bhattacharjee_CV_v3.pdf" target="_blank" rel="noopener">Get Resume</a>
+                </div>
+            </div>
+            <figure class="hero-portrait">
+                <img src="tanuka.jpg" alt="Tanuka Bhattacharjee">
+                <figcaption>Tanuka Bhattacharjee at IISc Bangalore</figcaption>
+            </figure>
+        </section>
+
+        <section class="section" id="impact">
+            <div class="section-heading">
+                <p class="eyebrow">Snapshot</p>
+                <h2>Impact at a glance</h2>
+            </div>
+            <div class="stat-grid">
+                <article>
+                    <p class="stat-value">5+</p>
+                    <p class="stat-label">Years in clinical speech analytics</p>
+                </article>
+                <article>
+                    <p class="stat-value">4</p>
+                    <p class="stat-label">Filed patents on physiological intelligence</p>
+                </article>
+                <article>
+                    <p class="stat-value">9.4/10</p>
+                    <p class="stat-label">Doctoral CGPA at IISc Bangalore</p>
+                </article>
+                <article>
+                    <p class="stat-value">Grants</p>
+                    <p class="stat-label">IEEE SPS · ISCA · PMRF · Qualcomm Innovation Fellowship finalist</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" id="focus">
+            <div class="section-heading">
+                <p class="eyebrow">Expertise</p>
+                <h2>Research focus</h2>
+            </div>
+            <div class="chip-list">
+                <span class="chip">Speech processing for ALS</span>
+                <span class="chip">Machine & deep learning</span>
+                <span class="chip">Physiological signal modeling</span>
+                <span class="chip">Dysarthria severity assessment</span>
+                <span class="chip">Clinical decision support</span>
+                <span class="chip">Embedded & wearable sensing</span>
+                <span class="chip">Hands-On: Python, PyTorch, Keras, Matlab</span>
+            </div>
+        </section>
+
+        <section class="section" id="qualifications">
+            <div class="section-heading">
+                <p class="eyebrow">Academic journey</p>
+                <h2>Qualifications</h2>
+            </div>
+            <ol class="timeline">
+                <li>
+                    <div class="timeline-marker" aria-hidden="true"></div>
+                    <div>
+                        <p class="timeline-date">2019 – Present</p>
+                        <h3>Doctor of Philosophy (Ph.D.) · Indian Institute of Science, Bangalore</h3>
+                        <p>Electrical Engineering · CGPA 9.4/10 · Researching explainable speech biomarkers for ALS.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-marker" aria-hidden="true"></div>
+                    <div>
+                        <p class="timeline-date">2015 – 2017</p>
+                        <h3>Master of Engineering (M.E.) · Jadavpur University</h3>
+                        <p>Electronics & Telecommunication Engineering (Computer Engineering specialization) · CGPA 10/10.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-marker" aria-hidden="true"></div>
+                    <div>
+                        <p class="timeline-date">2011 – 2015</p>
+                        <h3>Bachelor of Technology (B.Tech.) · Techno India, Salt Lake</h3>
+                        <p>Electronics & Communication Engineering, MAKAUT · DGPA 9.57/10 · Gold Medalist.</p>
+                    </div>
+                </li>
+            </ol>
+        </section>
+
+        <section class="section" id="experience">
+            <div class="section-heading">
+                <p class="eyebrow">Industry & lab</p>
+                <h2>Experience</h2>
+            </div>
+            <div class="card-stack">
+                <article class="card">
+                    <p class="card-date">2019 – Present · Bengaluru</p>
+                    <h3>Doctoral Researcher · SPIRE Lab, IISc</h3>
+                    <p>Designing interpretable ML architectures fusing acoustic and physiological cues for ALS management, leading multi-institution data collection, and mentoring junior researchers in speech analytics pipelines.</p>
+                </article>
+                <article class="card">
+                    <p class="card-date">2017 – 2019 · Kolkata</p>
+                    <h3>Systems Engineer · TCS Research & Innovation</h3>
+                    <p>Worked on embedded systems and robotics initiatives, building intelligent sensing stacks and algorithmic prototypes for autonomous platforms.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" id="patents">
+            <div class="section-heading">
+                <p class="eyebrow">Intellectual property</p>
+                <h2>Patents</h2>
+            </div>
+            <ol class="patent-list">
+                <li>
+                    <h3>Discriminating features based sepsis prediction</h3>
+                    <p>Varsha Sharma, <strong>Tanuka Bhattacharjee</strong> et al. U.S. Patent 11,817,217 (2023). <a href="https://patents.google.com/patent/US11817217B2/en" target="_blank" rel="noopener">View patent</a></p>
+                </li>
+                <li>
+                    <h3>System and method for non-apnea sleep arousal detection</h3>
+                    <p><strong>Tanuka Bhattacharjee</strong> et al. U.S. Patent 11,419,542 (2022). <a href="https://patents.google.com/patent/US11419542B2/en" target="_blank" rel="noopener">View patent</a></p>
+                </li>
+                <li>
+                    <h3>Heart rate driven unsupervised techniques for continuous monitoring of arousal trend of users</h3>
+                    <p><strong>Tanuka Bhattacharjee</strong> et al. U.S. Patent 11,045,136 (2021). <a href="https://patents.google.com/patent/US11045136B2/en" target="_blank" rel="noopener">View patent</a></p>
+                </li>
+                <li>
+                    <h3>System and method for classification and quantitative estimation of cognitive stress</h3>
+                    <p>Deepan Das, <strong>Tanuka Bhattacharjee</strong> et al. U.S. Patent 10,716,501 (2020). <a href="https://patents.google.com/patent/US10716501B2/en" target="_blank" rel="noopener">View patent</a></p>
+                </li>
+            </ol>
+        </section>
+
+        <section class="section" id="publications">
+            <div class="section-heading">
+                <p class="eyebrow">Peer-reviewed</p>
+                <h2>Recent publications</h2>
+            </div>
+            <div class="subtabs" role="tablist">
+                <a class="subtab" href="#journals" role="tab" aria-controls="journals">6 Journals</a>
+                <a class="subtab" href="#conferences" role="tab" aria-controls="conferences">15 Conferences</a>
+            </div>
+            <div class="publication-groups">
+                <article id="journals" class="publication-subsection" tabindex="-1">
+                    <h3>Journal Articles</h3>
+                    <ol>
+                        <li>
+                            Tanuka Bhattacharjee et al. <a href="https://doi.org/10.1121/10.0034613" target="_blank" rel="noopener">Inter-speaker acoustic differences of sustained vowels at varied dysarthria severities for ALS</a>. <span>JASA Express Letters, 2024.</span>
+                        </li>
+                        <li>
+                            Arup Kumar Sadhu, Tanuka Bhattacharjee et al. <a href="https://www.sciencedirect.com/science/article/abs/pii/S2210650217306776" target="_blank" rel="noopener">Synergism of Firefly Algorithm and Q-Learning for robot arm path planning</a>. <span>Swarm and Evolutionary Computation, 2018.</span>
+                        </li>
+                    </ol>
+                </article>
+                <article id="conferences" class="publication-subsection" tabindex="-1">
+                    <h3>Conference Papers</h3>
+                    <ol>
+                        <li>Upendra Vishwanath Y. S., <strong>Tanuka Bhattacharjee</strong> et al. Comparison of Acoustic and Textual Features for Dysarthria Severity Classification in ALS. <span>INTERSPEECH 2025.</span></li>
+                        <li>Anjali Jayakumar, <strong>Tanuka Bhattacharjee</strong> et al. <a href="https://ieeexplore.ieee.org/abstract/document/10983135" target="_blank" rel="noopener">Classification Between Patients with ALS and Healthy Individuals Using Hypernasality in Speech</a>. <span>NCC 2025.</span></li>
+                    </ol>
+                </article>
+            </div>
+            <p class="note">Complete list available on the downloadable resume and <a href="https://scholar.google.com/citations?user=6_JryR8AAAAJ" target="_blank" rel="noopener">Google Scholar</a>.</p>
+        </section>
+
+        <section class="section" id="achievements">
+            <div class="section-heading">
+                <p class="eyebrow">Honors</p>
+                <h2>Selected achievements</h2>
+            </div>
+            <ul class="achievement-list">
+                <li>IEEE SPS Travel Grant to present ALS speech work at ICASSP 2023, Rhodes Island.</li>
+                <li>ISCA Travel Grant recipient for INTERSPEECH 2021, Brno.</li>
+                <li>Prime Minister's Research Fellowship for doctoral studies.</li>
+                <li>Qualcomm Innovation Fellowship India 2020 Finalist.</li>
+                <li>Sarojini Radhakanta Majumdar Memorial Gold Centered Silver Medal · Jadavpur University.</li>
+                <li>MHRD scholarship throughout the M.E. program.</li>
+                <li>Gold Medalist, B.Tech. in ECE · MAKAUT.</li>
+                <li>Best Outgoing Student Award 2014–15 · Techno India, Salt Lake.</li>
+            </ul>
+        </section>
+
+        <section class="section contact" id="contact">
+            <div class="section-heading">
+                <p class="eyebrow">Connect</p>
+                <h2>Let's collaborate</h2>
+            </div>
+            <div class="contact-grid">
+                <div>
+                    <p>I welcome conversations on clinical speech analytics, collaborations on ALS biomarker discovery, and mentorship inquiries.</p>
+                    <ul class="contact-list">
+                        <li><strong>Email:</strong> <a href="mailto:tanukab@iisc.ac.in">tanukab@iisc.ac.in</a></li>
+                        <li><strong>Office:</strong> C-326, SPIRE Lab, Dept. of Electrical Engineering, IISc Bangalore</li>
+                        <li><strong>Download:</strong> <a href="Tanuka_Bhattacharjee_CV_v3.pdf" target="_blank" rel="noopener">Resume (PDF)</a></li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/tanuka-bhattacharjee" target="_blank" rel="noopener">LinkedIn</a>
+                        <a href="https://scholar.google.com/citations?user=6_JryR8AAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+                    </div>
+                </div>
+                <form class="contact-form" action="mailto:tanukab@iisc.ac.in" method="POST" enctype="text/plain">
+                    <label for="name">Name</label>
+                    <input id="name" name="name" type="text" required>
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" required>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <button type="submit">Send note</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <p>&copy; <span id="year"></span> Tanuka Bhattacharjee · Designed for GitHub Pages.</p>
+    </footer>
+    <script src="scripts/main.js"></script>
 </body>
 </html>
